@@ -1,0 +1,24 @@
+/* lightmode.css */
+
+body {
+    background-color: #F3F4F6;
+    color: #1F2937;
+}
+
+#flashcard-container {
+    background-color: #FFFFFF;
+    border-color: #E5E7EB;
+}
+
+#next-button, #prev-button, #theme-toggle {
+    background-color: #3B82F6;
+    color: #F3F4F6;
+}
+
+#next-button:hover, #prev-button:hover, #theme-toggle:hover {
+    background-color: #2563EB;
+}
+
+#emoji-display, #greek-word-display {
+    color: #1F2937;
+}

@@ -1,0 +1,20 @@
+@media (max-width: 640px) {
+  #flashcard-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #emoji-display,
+  #greek-word-display {
+    font-size: 1.5rem;
+  }
+
+  #next-button,
+  #prev-button {
+    font-size: 1.2rem;
+  }
+
+  #theme-toggle {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Game</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flashcards.css">
+    <link rel="stylesheet" href="lightmode.css" id="theme-style">
+</head>
+<body class="bg-white dark:bg-gray-800 text-black dark:text-white">
+    <div class="container mx-auto p-4">
+        <h1 class="text-center">Learn Greek with Flashcards</h1>
+        <div id="flashcard-container" class="mx-auto p-4 text-center">
+            <div id="emoji-display" class="text-6xl"></div>
+            <div id="greek-word-display" class="text-4xl mt-4"></div>
+            <div class="mt-4">
+                <button id="prev-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Previous</button>
+                <button id="next-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-2">Next</button>
+            </div>
+        </div>
+        <div class="mt-4 text-center">
+            <button id="theme-toggle" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Toggle Theme</button>
+        </div>
+    </div>
+    <script src="scripts/flashcards.js"></script>
+    <script src="scripts/lightmode.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/mobile.js"></script>
+</body>
+</html>

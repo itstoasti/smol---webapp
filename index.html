@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Greek with Flashcards</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lightmode.css" id="theme-style">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body class="bg-white dark:bg-gray-800 text-black dark:text-white">
+    <div class="container mx-auto p-4">
+        <h1 class="text-center">Learn Greek with Flashcards</h1>
+        <button id="theme-toggle" class="p-2 bg-blue-500 text-white rounded">Toggle Theme</button>
+        <div id="flashcard-container" class="p-4 mx-auto text-center">
+            <div id="emoji-display" class="text-6xl"></div>
+            <div id="greek-word-display" class="text-4xl"></div>
+            <button id="prev-button" class="p-2 bg-blue-500 text-white rounded">Previous</button>
+            <button id="next-button" class="p-2 bg-blue-500 text-white rounded">Next</button>
+        </div>
+    </div>
+    <script src="scripts/flashcards.js"></script>
+    <script src="scripts/lightmode.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/mobile.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import 'tailwind.css';
+
+/* General styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Flashcard styles */
+#flashcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+#emoji-display {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#greek-word-display {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#next-button, #prev-button {
+    background-color: #4F46E5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+#next-button:hover, #prev-button:hover {
+    background-color: #4338CA;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #4F46E5;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    background-color: #4338CA;
+}

@@ -1,0 +1,58 @@
+#flashcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+}
+
+#emoji-display {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+#greek-word-display {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#next-button, #prev-button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#next-button:hover, #prev-button:hover {
+    background-color: #0056b3;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.dark #flashcard-container {
+    background-color: #1a202c;
+}
+
+.dark #next-button, .dark #prev-button {
+    background-color: #4a5568;
+}
+
+.dark #next-button:hover, .dark #prev-button:hover {
+    background-color: #2d3748;
+}
